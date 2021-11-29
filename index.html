@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top__wrapper">
+            <div class="top__wrapper_bg">
+                <span></span>
+            </div>
+            <div class="container">
+                <div class="header">
+                    <div class="header__logo">
+                        <a href="#" class="logo__link">
+                            <img src="img/logo.svg" alt="logo" class="logo">
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="header__nav_list">
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">О нас</a></li>
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">Одежда</a></li>
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">Кроссовки</a></li>
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">Акссесуары</a></li>
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">Контакты</a></li>
+                            <li class="header__nav_item"><a href="#" class="header__nav_link">Доставка</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" class="social__link">
+                            <img src="img/insta_logo.svg" alt="insta-img" class="social__img">
+                            <span>@fnshop.kz</span>
+                        </a>
+                    </div>
+                    <div class="header__cart">
+                        <a href="#" class="cart__link" id="cart__link">
+                            <img src="img/cart_img.svg" alt="cart" class="cart__img">
+                        </a>
+                    </div>
+                    <div class="header__top_mobile">
+                        <div class="header__mobile">
+                            <div class="burger__menu" id="burger__menu">
+                                <span></span>
+                            </div>
+                            <nav>
+                                <ul class="burger__menu-list">
+                                    <li><a href="javascript://0" onclick="slowScroll('#Home')" class="burger_link">О
+                                            нас</a></li>
+                                    <li><a href="javascript://0" onclick="slowScroll('#About_me')"
+                                            class="burger_link">Одежда</a></li>
+                                    <li><a href="javascript://0" onclick="slowScroll('#Skills')"
+                                            class="burger_link">Кроссовки</a></li>
+                                    <li><a href="javascript://0" onclick="slowScroll('#Portfolio')"
+                                            class="burger_link">Акссесуары</a></li>
+                                    <li><a href="#" class="burger_link">Контакты</a></li>
+                                    <li><a href="javascript://0" onclick="slowScroll('#Contacts')"
+                                            class="burger_link">Доставка</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <main class="main">
+                    <div class="main__top">
+                        <div class="main__slider">
+                            <div class="slider__item">
+                                <div class="slider__item_left">
+                                    <h2 class="item__name">
+                                        Yeezy 700
+                                        v3
+                                    </h2>
+                                    <a href="#" class="item__buy-link">Купить сейчас</a>
+                                </div>
+                                <div class="slider__item_middle">
+                                    <img src="img/big_sneak.png" alt="big_sneak" class="slider__img">
+                                    <div class="slider__rotate">
+                                        <img src="img/rotate.svg" alt="rotate">
+                                    </div>
+                                </div>
+                                <div class="slider__item_right">
+                                    <ul class="color__list">
+                                        <li class="color__item">
+                                            <a href="#" class="color__link">
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li class="color__item">
+                                            <a href="#" class="color__link">
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li class="color__item">
+                                            <a href="#" class="color__link">
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="item__price">
+                                        <span class="old__price">
+                                            35 000₸
+                                        </span>
+                                        <span class="new__price">
+                                            25 000₸
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__social">
+                            <ul class="social__list">
+                                <li class="social__item"><a href="#" class="social__link"><img src="img/phone.svg"
+                                            alt="phone" class="social__img"></a></li>
+                                <li class="social__item"><a href="#" class="social__link"><img src="img/text.svg"
+                                            alt="text" class="social__img"></a></li>
+                                <li class="social__item"><a href="#" class="social__link"><img src="img/email_1.svg"
+                                            alt="email" class="social__img"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main__bottom">
+                        <div class="mini__slider">
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini__slider__item">
+                                <div class="left__content">
+                                    <img src="img/huarachi.svg" alt="huarachi">
+                                </div>
+                                <div class="right__content">
+                                    <div class="right__content_name">Nike air huarache</div>
+                                    <div class="right__content_rating">
+                                        <ul class="rating__list">
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                            <li class="rating__item"><img src="img/star.svg" alt="star"
+                                                    class="rating__star"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right__content_price">
+                                        <span class="old__price">30 000₸</span>
+                                        <span class="new__price">20 000₸</span>
+                                    </div>
+                                    <div class="right__content_colors">
+                                        <span>3 цвета</span>
+                                    </div>
+                                    <div class="right__content_button">
+                                        <a href="#" class="right__content_link">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom__arrow"></div>
+                        <div class="mini__slider_progress">
+                            <div class="mini__slider_counter">
+                            </div>
+                            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                </main>
+            </div>
+        </div>
+        <section class="categories">
+            <div class="container">
+                <div class="categories__top-content">
+                    <div class="categories__item">
+                        <img src="img/first.png" alt="first" class="item__img">
+                        <ul class="categories__list">
+                            <li class="categories__item-list"><a href="#" class="categories__link">лонгсливы</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">свитшоты</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">футболки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">олимпийки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">ветровки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">рубашки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">худи</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">джинсковки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">джинсы</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">кепки</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">поло</a></li>
+                            <li class="categories__item-list"><a href="#" class="categories__link">боксеры</a></li>
+                        </ul>
+                        <a href="#" class="categories__button">Купить сейчас</a>
+                    </div>
+                    <div class="categories__item">
+                        <img src="img/second.png" alt="second" class="item__img">
+                        <a href="#" class="categories__button">Купить сейчас</a>
+                    </div>
+                    <div class="categories__item">
+                        <img src="img/fhird.png" alt="third" class="item__img">
+                        <a href="#" class="categories__button"><img src="img/insta-big.svg" alt="insta"></a>
+                    </div>
+                </div>
+                <div class="categories__bottom-content">
+                    <div class="bottom__item">
+                        <a href="#" class="bottom__item_link">
+                            <img src="img/1.png" alt="1">
+                        </a>
+                    </div>
+                    <div class="bottom__item">
+                        <a href="#" class="bottom__item_link">
+                            <img src="img/2.png" alt="2">
+                        </a>
+                    </div>
+                    <div class="bottom__item">
+                        <a href="#" class="bottom__item_link">
+                            <img src="img/3.png" alt="3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="models__slider">
+            <div class="container">
+                <h2 class="models__slider_head">Эксклюзивные модели</h2>
+                <div class="slider">
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="#" class="slider__item_link">
+                            <div class="slider__item_img">
+                                <img src="img/first_shoe.png" alt="first">
+                            </div>
+                            <div class="slider__item_content">
+                                <div class="slider__item_title">
+                                    <h4 class="title">Jordan Delta 2</h4>
+                                </div>
+                                <div class="slider__item_price">
+                                    <span class="new-price">78, 000₸</span>
+                                    <span class="old_price">98, 000₸</span>
+                                </div>
+                                <div class="slider__item_cart">
+                                    <img src="img/cart_img.svg" alt="cart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="custom__arrow_1"></div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="info__left">
+                    <h2 class="info__title">
+                        Немного о F&N SHOP
+                    </h2>
+                    <p class="info__description">Мы с братом работаем с 11 лет. Начиналось все максимально просто, это
+                        был семейный бизнес. Самый обычный товар, без каких-либо изысков, да и роскошной геолокацией
+                        похвастать не могли. Первое время делали свою работу, потому что надо. А какие ещё варианты?
+                        Отец этим занимался, мы должны были быть опорой. <br> <br>
+
+                        Чуть позднее, стали прививать себе вкус к вещам: одежде/обуви , следить за всеми модными
+                        новостными ресурсами, изредка балуя себя чем-то уникальным и трендовым. <br> <br>
+
+                        Вскоре стало понятно, что нужно стать ещё ближе к этому, и не просто набить свой гардероб кучей
+                        шмоток, а помогать другим, делая эту роскошь более доступной, да ещё и с превосходным сервисом.
+                        И вот сейчас мы почти у цели! И казалось бы пара строк, но целых 14 лет тяжёлого труда и нервов.
+                    </p>
+                    <a href="#" class="info__button">Подробнее</a>
+                </div>
+                <div class="info__right">
+                    <img src="img/info_img.png" alt="info_img">
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <ul class="partners__list">
+                    <li class="partners__item">
+                        <img src="img/adidas.svg" alt="adidas" class="partners__img">
+                    </li>
+                    <li class="partners__item">
+                        <img src="img/nike.svg" alt="nike" class="partners__img">
+                    </li>
+                    <li class="partners__item">
+                        <img src="img/vans.svg" alt="vans" class="partners__img">
+                    </li>
+                    <li class="partners__item">
+                        <img src="img/convers.svg" alt="convers" class="partners__img">
+                    </li>
+                    <li class="partners__item">
+                        <img src="img/nb.svg" alt="nd" class="partners__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="footer__emails">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="email__label">Нагим</span>
+                            <a href="#" class="emai__link">nagimdunham@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Дирекция</span>
+                            <a href="#" class="emai__link">director@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Информация</span>
+                            <a href="#" class="emai__link">Info@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Служба поддержи</span>
+                            <a href="#" class="emai__link">Support@fnshop.kz</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social__link">
+                        <img src="img/insta_logo.svg" alt="insta-img" class="social__img">
+                        <span>@fnshop.kz</span>
+                    </a>
+                    <a href="#" class="social__phone">8 800 600 80 80</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <div class="cart__popup" id="cart__popup">
+            <div class="cart__popup_wrapper" id="cart__popup_wrapper"> </div>
+            <div class="cart__popup_content">
+                <div class="content__top_wrapper">
+                    <div class="content__top">
+                        <h2 class="title">Корзина ваших покупок</h2>
+                        <hr>
+                        <a href="#" class="close__button" id="close__button">
+                            <img src="img/close.svg" alt="close">
+                        </a>
+                    </div>
+                    <div class="content__item">
+                        <div class="cart__item">
+                            <div class="item__img">
+                                <img src="img/cart-img.png" alt="shoes">
+                            </div>
+                            <div class="item__name">
+                                <a href="#" class="item__link">
+                                    <span class="name">
+                                        Nike Zoom KD 10
+                                    </span>
+                                    <span class="price">
+                                        25, 000₸
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item__number">
+                                <input type="button" value="-" id="button_minus">
+                                <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1"
+                                    title="Qty">
+
+                                <input type="button" value="+" id="button_plus">
+                            </div>
+                            <div class="item__total">
+                                <span class="total__price">25, 000₸</span>
+                            </div>
+                            <div class="item__delete">
+                                <a href="#" class="delete__button">
+                                    <img src="img/close.svg" alt="item">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cart__item">
+                            <div class="item__img">
+                                <img src="img/cart-img.png" alt="shoes">
+                            </div>
+                            <div class="item__name">
+                                <a href="#" class="item__link">
+                                    <span class="name">
+                                        Nike Zoom KD 10
+                                    </span>
+                                    <span class="price">
+                                        25, 000₸
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item__number">
+                                <input type="button" value="-" id="button_minus">
+                                <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1"
+                                    title="Qty">
+
+                                <input type="button" value="+" id="button_plus">
+                            </div>
+                            <div class="item__total">
+                                <span class="total__price">25, 000₸</span>
+                            </div>
+                            <div class="item__delete">
+                                <a href="#" class="delete__button">
+                                    <img src="img/close.svg" alt="item">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__bottom">
+                    <div class="total_price">
+                        <span class="total_price__text">
+                            Итого
+                        </span>
+                        <span class="total_price__count">
+                            50, 000₸
+                        </span>
+                    </div>
+                    <hr>
+                    <a href="#" class="buy__button">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

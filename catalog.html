@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="#" class="logo__link">
+                        <img src="img/logo.svg" alt="logo" class="logo">
+                    </a>
+                </div>
+                <div class="header__search">
+                    <form action="#" method="post" class="search__area">
+                        <button type="submit"><img src="img/search.svg" alt="search"></button>
+                        <input type="text">
+                    </form>
+                </div>
+                <div class="header__cart">
+                    <a href="#" class="cart__link">
+                        <img src="img/cart_img.svg" alt="cart" class="cart__img">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="product-catalog">
+            <div class="container">
+                <div class="product-catalog__options">
+                    <div class="options__accordeon">
+                        <div class="options__accordeon_triger">
+                            <span class="triger__title">
+                                Каталог
+                            </span>
+                            <span class="triger__img">
+                                <img src="img/acordeon__arrow.png" alt="acordeon__arrow">
+                            </span>
+                        </div>
+                        <div class="options__accordeon_content">
+                            <div class="content__categories">
+                                <h3 class="content__categories_title">
+                                    Категория
+                                </h3>
+                                <div class="content__categories_checkbox">
+                                    <input type="checkbox" class="checkbox" name="sneaks">
+                                    <label for="sneaks" class="checkbox__name">Кросовки</label>
+                                </div>
+                                <div class="content__categories_checkbox">
+                                    <input type="checkbox" class="checkbox" name="clothes">
+                                    <label for="clothes" class="checkbox__name">Одежда</label>
+                                </div>
+                                <div class="content__categories_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Accessories">
+                                    <label for="Accessories" class="checkbox__name">Акссесуары</label>
+                                </div>
+                            </div>
+                            <div class="content__brands">
+                                <h3 class="content__brands_title">
+                                    Брэнд
+                                </h3>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Nike">
+                                    <label for="Nike" class="checkbox__name">Nike</label>
+                                </div>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Jordan">
+                                    <label for="Jordan" class="checkbox__name">Jordan</label>
+                                </div>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Adidas">
+                                    <label for="Adidas" class="checkbox__name">Adidas</label>
+                                </div>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Fila">
+                                    <label for="Fila" class="checkbox__name">Fila</label>
+                                </div>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Gucci">
+                                    <label for="Gucci" class="checkbox__name">Gucci</label>
+                                </div>
+                                <div class="content__brands_checkbox">
+                                    <input type="checkbox" class="checkbox" name="Balenciaga">
+                                    <label for="Balenciaga" class="checkbox__name">Balenciaga</label>
+                                </div>
+                            </div>
+                            <div class="content__range">
+
+                            </div>
+                            <div class="content__size">
+                                <h3 class="size__title">
+                                    Размер
+                                </h3>
+                                <div class="size__area">
+                                    <div class="size__area_item" id="size__area_item">32</div>
+                                    <div class="size__area_item" id="size__area_item">33</div>
+                                    <div class="size__area_item" id="size__area_item">34</div>
+                                    <div class="size__area_item" id="size__area_item">35</div>
+                                    <div class="size__area_item" id="size__area_item">36</div>
+                                    <div class="size__area_item" id="size__area_item">37</div>
+                                    <div class="size__area_item" id="size__area_item">38</div>
+                                    <div class="size__area_item" id="size__area_item">39</div>
+                                    <div class="size__area_item" id="size__area_item">40</div>
+                                    <div class="size__area_item" id="size__area_item">41</div>
+                                    <div class="size__area_item" id="size__area_item">42</div>
+                                    <div class="size__area_item" id="size__area_item">43</div>
+                                    <div class="size__area_item" id="size__area_item">44</div>
+                                    <div class="size__area_item" id="size__area_item">45</div>
+                                    <div class="size__area_item" id="size__area_item">46</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options__accordeon_social">
+                        <ul class="social__list">
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/phone.svg"
+                                        alt="phone" class="social__img"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/text.svg" alt="text"
+                                        class="social__img"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/email 1.svg"
+                                        alt="email" class="social__img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-catalog__positions">
+                    <h2 class="catalog__positions_title">Каталог кросовок</h2>
+                    <div class="catalog__positions_section">
+                        <div class="catalog__positions_list">
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="catalog__positions_item">
+                                <a href="#" class="catalog__positions_link">
+                                    <div class="catalog__positions_img">
+                                        <img src="img/first_shoe.png" alt="first">
+                                    </div>
+                                    <div class="catalog__positions_content">
+                                        <div class="catalog__positions_head">
+                                            <h4 class="title">Jordan Delta 2</h4>
+                                        </div>
+                                        <div class="catalog__positions_price">
+                                            <span class="new-price">78, 000₸</span>
+                                            <span class="old_price">98, 000₸</span>
+                                        </div>
+                                        <div class="catalog__positions_cart">
+                                            <img src="img/cart_img.svg" alt="cart">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="catalog__positions_button">
+                            <a href="#" class="button">Показать еще</a>
+                        </div>
+                        <div class="catalog__positions_pages">
+                            <ul class="pages__list">
+                                <li class="pages__item">
+                                    <button class="pages__button">1</button>
+                                </li>
+                                <li class="pages__item">
+                                    <button class="pages__button">2</button>
+                                </li>
+                                <li class="pages__item">
+                                    <button class="pages__button">3</button>
+                                </li>
+                                <li class="pages__item">
+                                    <button class="pages__button">4</button>
+                                </li>
+                                <li class="pages__item">
+                                    <button class="pages__button">5</button>
+                                </li>
+                                <li class="pages__item">
+                                    <button class="pages__button"><img src="img/next_page.png"
+                                            alt="next__arrow"></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="footer__emails">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="email__label">Нагим</span>
+                            <a href="#" class="emai__link">nagimdunham@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Дирекция</span>
+                            <a href="#" class="emai__link">director@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Информация</span>
+                            <a href="#" class="emai__link">Info@fnshop.kz</a>
+                        </li>
+                        <li class="footer__item">
+                            <span class="email__label">Служба поддержи</span>
+                            <a href="#" class="emai__link">Support@fnshop.kz</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social__link">
+                        <img src="img/insta_logo.svg" alt="insta-img" class="social__img">
+                        <span>@fnshop.kz</span>
+                    </a>
+                    <a href="#" class="social__phone">8 800 600 80 80</a>
+                </div>
+            </div>
+        </footer>
+        <div class="body__social-buttons">
+            <ul class="social__list">
+                <li class="social__item"><a href="#" class="social__link"><img src="img/phone.svg" alt="phone"
+                            class="social__img"></a></li>
+                <li class="social__item"><a href="#" class="social__link"><img src="img/text.svg" alt="text"
+                            class="social__img"></a></li>
+                <li class="social__item"><a href="#" class="social__link"><img src="img/email_1.svg" alt="email"
+                            class="social__img"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/catalog.js"></script>
+</body>
+
+</html>
